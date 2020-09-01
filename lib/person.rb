@@ -5,4 +5,11 @@ class Person
   def name
     @name
   end
+  def job=(teach_job)
+    @job = teach_job
+  end
+  def job
+    @job
+  end
+end
   
